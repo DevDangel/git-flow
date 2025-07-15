@@ -7,4 +7,8 @@ public class Main {
         double calcular = hora * SALARIO_BASE;
         return calcular;
     }
+    public double calcularPrima(){
+        double prima = this.calcularSalario(0) * 30 * 12;
+        return prima;
+    }
 }
