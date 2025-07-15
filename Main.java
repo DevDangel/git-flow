@@ -7,4 +7,8 @@ public class Main {
         double calcular = hora * SALARIO_BASE;
         return calcular;
     }
+    public double calcularHorasExtras(int hora_extra){
+        double cal = calcularSalario(hora_extra) * HORA_EXTRA;
+        return cal;
+    }
 }
